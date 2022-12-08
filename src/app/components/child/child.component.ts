@@ -9,24 +9,27 @@ export class ChildComponent implements OnInit {
 
   constructor() {
   }
-
-  @Input() instance: string | undefined;
-
-  @Output() instanceChange = new EventEmitter();
-
-  @Output() onAddToCartClicked = new EventEmitter<string>();
-
   ngOnInit(): void {
-    this.instance = this.instance + 'asdasdasd';
-
-   // this.instanceChange.emit(this.instance);
-
-    console.log(this.instance);
-
+    throw new Error('Method not implemented.');
   }
-
-  ngAfterViewInit() {
-    console.log('DOM is ready for this comp')
-  }
-
 }
+  // @Input() instance: string | undefined;
+
+  // @Output() instanceChange = new EventEmitter();
+
+  // @Output() onAddToCartClicked = new EventEmitter<string>();
+
+  // ngOnInit(): void {
+  //   this.instance = this.instance + 'asdasdasd';
+
+  //  // this.instanceChange.emit(this.instance);
+
+  //   console.log(this.instance);
+
+  
+
+  // ngAfterViewInit() {
+  //   // console.log('DOM is ready for this comp')
+  // }
+
+

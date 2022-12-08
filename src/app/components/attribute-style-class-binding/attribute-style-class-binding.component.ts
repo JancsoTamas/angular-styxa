@@ -5,20 +5,20 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './attribute-style-class-binding.component.html',
   styleUrls: ['./attribute-style-class-binding.component.scss']
 })
-export class AttributeStyleClassBindingComponent implements OnInit {
+// export class AttributeStyleClassBindingComponent implements OnInit {
 
-  constructor() { }
+//   constructor() { }
 
-  width: number = 150;
+//   width: number = 150;
 
-  isEnabled: boolean = true;
+//   isEnabled: boolean = true;
 
-  link = 'https://rente.ro'
+//   link = 'https://rente.ro'
 
-  ngOnInit(): void {
-    setTimeout(() => {
-      this.width = 500;
-    }, 1000)
-  }
+//   ngOnInit(): void {
+//     setTimeout(() => {
+//       this.width = 500;
+//     }, 1000)
+//   }
 
-}
+// }

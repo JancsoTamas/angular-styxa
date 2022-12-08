@@ -5,3 +5,5 @@ table {
 .table_icon {
     cursor: pointer;
 }
+
+:host { min-width: calc(100vw - 256px) }

@@ -14,6 +14,10 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RequestInterceptor } from './interceptors/request.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +33,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    RouterModule
   ],
   providers: [
     AuthGuard,

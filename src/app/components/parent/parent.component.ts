@@ -9,18 +9,18 @@ export class ParentComponent  {
 
   constructor() {
 
-    setTimeout(()=>{
-      console.log(this.first);
-      console.log(this.second)
-    }, 3000)
+    // setTimeout(()=>{
+    //   console.log(this.first);
+    //   console.log(this.second)
+    // }, 3000)
    }
 
-  first: string = 'elso';
-  second: string = 'masodik';
+  // first: string = 'elso';
+  // second: string = 'masodik';
 
-  addToCart(data: string){
-    console.log('Kosarba', data)
-  }
+  // addToCart(data: string){
+  //   console.log('Kosarba', data)
+  // }
 
  
 
